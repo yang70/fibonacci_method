@@ -3,9 +3,16 @@
 By [Matthew Yang](http://www.matthewgyang.com).
 
 ## Description
-**Fibonacci** A program that patches the Ruby `Fixnum` class with a method called `#fibonacci`.
+**Fibonacci** A program that patches the Ruby `Fixnum` class with a method called `#fibonacci`.  See [this](https://en.wikipedia.org/wiki/Fibonacci_number) article for a description of a fibonacci number.
 
-![screenshot 1](images/screenshot_1.png)
+## Installation
+To use it you must
+```ruby
+require_relative 'fibonacci_method/lib/fibonacci'
+```
+Once that is required, you can simply call it on any `Fixnum` as a method of that class, ie `10.fibonacci` and it will return the fibonacci value at that itteration.
+
+![screenshot 1](https://dl.dropboxusercontent.com/u/69636/Screenshot%202015-09-03%2016.02.26.png)
 
 ## Credit
 Program was created together with [John Nortz](https://github.com/JohnNortz/).
