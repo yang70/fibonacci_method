@@ -1,4 +1,4 @@
-# Fibonacci - A monkeypatch to the Ruby Fixnum class
+# Fibonacci - A Fibonacci calculation program in Ruby
 
 By [Matthew Yang](http://www.matthewgyang.com).
 
