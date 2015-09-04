@@ -14,7 +14,7 @@ require_relative 'fibonacci_method/lib/fibonacci'
 ```
 Once that is required, you need to instantiate an instance of the class and then call the methods as demonstrated in the screenshot:
 
-![screenshot 1](https://www.dropbox.com/s/2eaktyerlz2ip3y/Screenshot%202015-09-04%2016.37.11.png?dl=0)
+![screenshot 1](https://dl.dropboxusercontent.com/u/69636/Screenshot%202015-09-04%2016.37.11.png)
 
 ## Credit
 Program logic/algorithm created together with [John Nortz](https://github.com/JohnNortz/).  I have since modified a bit on my own.
