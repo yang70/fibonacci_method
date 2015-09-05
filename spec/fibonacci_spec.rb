@@ -11,6 +11,6 @@ describe "test that the program is calculating correctly" do
   end
 
   it "should return a fixnum when running timer" do
-    test_fib.fib_timer.must_be_instance_of Fixnum
+    test_fib.fibonacci_timer.must_be_instance_of Fixnum
   end
 end

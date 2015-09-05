@@ -12,22 +12,25 @@ class Fibonacci
     curr
   end
 
-  def fib_timer
+  def fibonacci_timer
     timer = Time.now
-    counter = 0
+    @counter = 0
     begin
-      Timeout::timeout(10) {
-      prev = 0
-      curr = 1
-      loop do
-        store = curr
-        curr += prev
-        prev = store
-        counter += 1
-      end
-      }
+      Timeout::timeout(10) { endless_fibonacci }
     rescue Timeout::Error
-      counter
+      @counter
+    end
+  end
+
+  private
+  def endless_fibonacci
+    previous = 0
+    current = 1
+    loop do
+      store = current
+      current += previous
+      previous = store
+      @counter += 1
     end
   end
 end
