@@ -2,14 +2,14 @@ require 'timeout'
 
 class Fibonacci
   def fibonacci(num)
-    prev = 0
-    curr = 1
+    previous = 0
+    current = 1
     (num - 1).times do
-      store = curr
-      curr += prev
-      prev = store
+      store = current
+      current += previous
+      previous = store
     end
-    curr
+    current
   end
 
   def fibonacci_timer
